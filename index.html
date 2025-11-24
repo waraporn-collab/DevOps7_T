@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Version Control</title>
+<meta charset="utf8">
+</head>
+<body> 
+Version1 (เริ่มต้น)
+   <h1>ฟอร์มใบสมัครงานวิ่ง Singburi Mini Marathon </h1>
+<form>
+<label> ชื่อ-สกุล : </label>
+<input type="text" name="username" placeholder="กรอกชื่อ-นามสกุล"> <p>
+<label> อายุ : </label> 
+<input type="number" name="age"  max="90" min="5" > <p>
+</p>
+<label> เพศ : </label> 
+<input type="radio" name="gender" value="male" > ชาย
+<input type="radio" name="gender" value="femal" > หญิง
+<p></p>
+
+<label>หมายเลขโทรศััพท์</label>
+<input type="text" name="phonenumber" placeholder="ตัวอย่าง 091-7759258" ><p></p>
+
+<label>email</label> 
+<input type="email" name="email" > 
+<p>
+    
+<label>ประเภทการวิ่ง</label>
+<select name="distance" required>
+    <option value="">กรุณาเลือกประเภทการวิ่ง</option>
+    <option value="3km"> ระยะทาง 3 ก.ม.</option>
+    <option value="5km"> ระยะทาง 5 ก.ม.</option>
+    <option value="10km"> ระยะทาง 10 ก.ม.</option>
+</select>
+<p></p>
+<label>ขนาดเสื้อ</label>
+
+<select>
+    <option value="">--เลือกไซส์--</option>
+    <option value="S">ไซส์ S</option>
+    <option value="M">ไซส์ M</option>
+    <option value="L">ไซส์ L</option>
+    <option value="XL">ไซส์ XL</option>
+</select>
+<p></p>
+<label>คำแนะนำเพิ่มเติม</label> <br>
+<textarea cols="100" rows="6" placeholder="หากมีข้อมูลเพิ่มเติม กรุณากรอกที่นี่..."></textarea>
+<br>
+<input type="submit" value="ยืนการสมัคร">
+<input type="reset" value="ยกเลิกการสมัคร">
+</form>
+</body>
+</html>
